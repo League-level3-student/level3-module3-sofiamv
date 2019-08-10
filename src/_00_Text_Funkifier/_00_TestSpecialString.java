@@ -37,7 +37,9 @@ public class _00_TestSpecialString {
 	//   new String you want. Then use the assertEquals method in
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
-	public void testCustomString() {
-	
+	public void testOtherString() {
+		SpecialString a = new OtherString("Test");
+		System.out.println(a);
+		assertEquals("T e s t ", a.toString());
 	}
 }
