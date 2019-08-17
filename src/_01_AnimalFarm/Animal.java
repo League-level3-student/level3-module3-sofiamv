@@ -4,7 +4,7 @@ public abstract class Animal {
 
 	public abstract void MakeNoise();
 	
-	public void move() {
-		
+	public String givename(String s) {
+		return s;
 	}
 }

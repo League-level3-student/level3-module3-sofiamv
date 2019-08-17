@@ -4,10 +4,12 @@ public class SanDiego extends City{
 
 	public SanDiego(int population, double growthRate) {
 		super(population, growthRate);
+		
 	}
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		double i = population * growthRate + 1000000;
+		return i;
 	}
 }
